@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Model weights (large files)
+vision/models/*.pt
+vision/models/*.onnx
+
+# Runtime data
+storage/vehicles/*
+storage/plates/*
+!storage/vehicles/.gitkeep
+!storage/plates/.gitkeep
+
+# Videos
+*.mp4
+*.avi
+*.mov
+
+# OS / IDE
+.DS_Store
+.vscode/

@@ -1,0 +1,6 @@
+opencv-python
+numpy
+ultralytics
+fast-plate-ocr
+requests
+onnxruntime
